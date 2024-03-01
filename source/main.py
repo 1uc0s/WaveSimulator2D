@@ -1,9 +1,12 @@
+
 import wave_visualizer as vis
 import wave_simulation as sim
 import numpy as np
 import cv2
 import math
 import json
+
+
 
 
 def load_scene_from_image(simulator, scene_image, source_brightness_scale=1.0):
